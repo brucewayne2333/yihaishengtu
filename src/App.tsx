@@ -121,6 +121,17 @@ export default function App() {
         </main>
       )}
       <InputBar />
+      
+      <footer className="fixed inset-x-0 bottom-0 z-20 border-t border-gray-200/60 bg-white/80 px-4 py-2 text-center text-xs text-zinc-400 backdrop-blur dark:border-white/[0.08] dark:bg-gray-950/80">
+        <a
+          href="https://beian.miit.gov.cn/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-zinc-600 dark:hover:text-zinc-300"
+        >
+          闽ICP备2026027861号-1
+        </a>
+      </footer>
       <DetailModal />
       <Lightbox />
       <SettingsModal />
