@@ -2,5 +2,11 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "git": {
     "deploymentEnabled": true
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/api-proxy/:path*",
+      "destination": "https://banliapi.top/v1/:path*"
+    }
+  ]
 }
